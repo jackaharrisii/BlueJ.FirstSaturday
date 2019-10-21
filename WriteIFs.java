@@ -46,7 +46,7 @@ public class WriteIFs
      * 
      * 
      * instance variables
-     * / 
+     */ 
    int x;
    int tt_t;
    int tt_s;
@@ -72,7 +72,7 @@ public class WriteIFs
     public boolean isAlive(boolean p) {
         return !p;
     }
-    private int tempurature(int t) {
+    private int temperature(int t) {
         return t+2;
     }
     private void heatOn() {
